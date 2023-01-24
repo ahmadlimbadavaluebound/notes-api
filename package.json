@@ -1,4 +1,24 @@
 {
+
+  "name": "notes-api",
+  "description": "This project contains basic API in node for notes app which allows user registration, login and CRUD operations API for notes.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadlimbadavaluebound/notes-api.git"
+  },
+  "author": "Ahmad Limbada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmadlimbadavaluebound/notes-api/issues"
+  },
+  "homepage": "https://github.com/ahmadlimbadavaluebound/notes-api#readme",
   "dependencies": {
     "crypto-js": "^4.1.1",
     "dotenv": "^16.0.3",
